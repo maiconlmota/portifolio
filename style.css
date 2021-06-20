@@ -693,11 +693,12 @@ footer{
         color: #a7a7a7;
         font-size: 10px;
         justify-content: center;
-        margin-left: 3.2rem;
-        margin-right: -20rem;
+        margin-left: 2.2rem;
+        margin-right: -23rem;
         margin-bottom: -3.4rem;
         margin-top: 2.7rem;
         padding: 0;
+        /*object-fit: cover;*/
     }
 
     .social-list ul{
@@ -705,8 +706,8 @@ footer{
 
         height: 5rem;
         padding: 0;
-        margin-right: 2.7rem;
-        
+        margin-right: 1.37rem;
+        /*object-fit: cover;*/
     }
     
     /*Responsividade page orçamento*/
