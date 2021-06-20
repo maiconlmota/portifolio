@@ -142,7 +142,7 @@ header{
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 1rem 3rem;
     border: none;
     border-radius: 5px;
@@ -638,7 +638,7 @@ footer{
 }
 
 
-/*Responsividade GERAL...*/
+/* Responsividade GERAL...*/
 
 
 
@@ -650,6 +650,12 @@ footer{
         height: 100%;
         padding: 0;
         margin:0;        
+    }
+
+    .banner{
+        position: absolute;
+        top: 10%;
+        left: 15%;
     }
 
     #link-topo{
@@ -688,7 +694,7 @@ footer{
     .sessao-orcamento form{
         margin: 0;
         display: grid;
-        margin-top: 5rem; 
+        margin-top: 3rem; 
     }
 
     .sessao-orcamento label{
@@ -718,7 +724,7 @@ footer{
 
     .sessao-orcamento #preco{
         position: absolute;
-        top: 38rem;
+        top: 29.77rem;
         left: -1.5rem;
         font-size: 1.2rem;
         
@@ -733,9 +739,12 @@ footer{
         cursor: pointer;
         font-size: 1.2rem;
 
-        margin-top: -3rem;
-        margin-left: -3rem;
-        margin-right: -1.4rem;
+        margin-top: -5rem;
+        margin-bottom: 3rem;
+        margin-left: -1rem;
+        margin-right: -0.8rem;
+        padding: 0;
+        
     }
     
 }
