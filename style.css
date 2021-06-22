@@ -731,6 +731,12 @@ footer{
 
     /*Responsividade parte baixa do site*/
 
+    .footer-content{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        
+    }
 
     .footer-content p{
         font-family: var(--font-secundary);
@@ -739,7 +745,7 @@ footer{
         justify-content: center;
         margin-left: 1rem;
         margin-bottom: 2.5rem;
-        margin-top: 2.7rem;
+        margin-top: 1rem;
         padding: 0;
     }
 
