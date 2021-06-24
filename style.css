@@ -557,13 +557,9 @@ header{
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
-    row-gap: 6rem;
+    row-gap: 2rem;
     margin-top: 9rem;
     padding: 0;
-
-    overflow: hidden;
-
-
 }
 
 .sessao-orcamento label{
@@ -583,7 +579,7 @@ header{
 
 #preco{
     position: absolute;
-    top: 44.6rem;
+    top: 28.6rem;
     left: 1.5rem;
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
