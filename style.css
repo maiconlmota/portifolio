@@ -229,6 +229,8 @@ header{
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
     row-gap: 0.5rem;
+    padding: 4rem;
+    margin-bottom: 10rem; 
 }
 
 .conhecimento:nth-child(1){
@@ -263,7 +265,7 @@ header{
 
 .sessao-conhecimentos{
     background-color: rgba(159, 130, 68, 0.4);
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 .sessao-header{
@@ -302,6 +304,8 @@ header{
     color: black;
     font-size: 1.2rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 
 .conhecimentos-img-wrapper{
@@ -315,6 +319,7 @@ header{
     width: 100%;
     border-radius: 0.5rem;
     opacity: 0.7;
+    margin-bottom: -10rem;
 }
 
 .projetos{
